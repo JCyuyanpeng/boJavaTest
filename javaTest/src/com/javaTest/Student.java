@@ -1,7 +1,7 @@
 package com.javaTest;
 
 public class Student {
-    String name;
+    String name = "alex";
     int age;
     public void study(){
         System.out.println("study");
