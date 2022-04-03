@@ -1,2 +1,11 @@
-package com.javaTest.Study402;public class ScTest {
+package com.javaTest.Study402;
+
+import java.util.Scanner;
+
+public class ScTest {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String line = sc.nextLine();
+        System.out.println(line);
+    }
 }
